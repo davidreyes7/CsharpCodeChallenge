@@ -5,22 +5,21 @@
 This project is a console application to manage TV Shows and mark them as favorites. It is implemented in C# with .NET 7.
 
 ## Folder and File Structure
-CsharpCodeChallenge
-|-- CodeChallenge
-| |-- Program.cs
-| |-- tvshows.db
-| |-- Models
-| | |-- TVShow.cs
-| |-- Data
-| | |-- ITVShowRepository.cs
-| | |-- TVShowContext.cs
-| | |-- TVShowRepository.cs
-| | |-- TVShowService.cs
-| |-- CodeChallenge.csproj
-|-- CodeChallenge.Tests
-| |-- TVShowContextTests.cs
-| |-- CodeChallenge.Tests.csproj
-
+- CsharpCodeChallenge
+  - CodeChallenge
+    - Program.cs
+    - tvshows.db
+    - CodeChallenge.csproj
+    - Models
+      - TVShow.cs
+    - Data
+      - ITVShowRepository.cs
+      - TVShowContext.cs
+      - TVShowRepository.cs
+      - TVShowService.cs
+  - CodeChallenge.Tests
+    - TVShowContextTests.cs
+    - CodeChallenge.Tests.csproj
 
 ## File Descriptions
 
